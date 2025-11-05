@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         DEPLOY_SERVER = "ubuntu@10.0.0.116"
-        DEPLOY_PATH = "/opt/tomcat/webapps"
-        SSH_KEY = "~/.ssh/deploy.key"
+        DEPLOY_PATH = "/opt/release"
+        SSH_KEY = "~/.ssh/dev_web_c4registro.key"
     }
 
     stages {
